@@ -131,7 +131,7 @@ h1 a {
 }
 
 .header .current-page a {
-	background-color:  #C6C6C6;
+	background-color: #999999;
 	padding: 18px 2px;
 }
 
@@ -197,7 +197,8 @@ del {
 
 .profiles {
 	background-color: #C6C6C6;
-	padding: 20px 0;
+	padding: 35px 0 50px;
+	position: relative;
 }
 
 .profiles ul {
@@ -210,19 +211,34 @@ del {
 	background-color: #fff;
 	float: left;
 	padding: 10px;
-	margin: 10px;
+	margin: 7.5px 10px;
 	width: 23%;
 	min-width: 250px;
 }
 
 .profiles img {
 	width: 100%;
+	margin-bottom: 10px;
 }
 
-.skills li {
-	display: inline-block;
+.profiles h3 {
+	margin: 0;
+	font-size: 1.5rem;
 }
 
+.skills {
+	margin: 10px 0 20px;
+}
+
+.skills span {
+	background-color: #999999;
+	color: #fff;
+	float: left;
+	border-radius: 20px;
+	margin-right: 5px;
+	margin-bottom: 7.5px;
+  padding: 0 15px;
+}
 
 /*******************
   TEASERS STYLES
