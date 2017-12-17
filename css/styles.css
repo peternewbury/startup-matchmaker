@@ -1,0 +1,270 @@
+/*
+
+Colours:
+
+Light yellow:   #FFF653;
+Mid yellow:     #CEC441;
+
+Light grey:     #C6C6C6;
+Mid grey:       #AAAAAA;
+Dark grey:      #999999;
+
+*/
+
+/*******************
+  BASE SETUP
+*******************/
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " "; 
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.container {
+  margin: 0 auto;
+  width: 95%;
+  max-width: 1200px;
+}
+
+/*******************
+  FONT SETUP
+*******************/
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,
+.teasers-block h2,
+.sub-header p {
+	font-family:  'Merriweather', serif;
+}
+
+.cta,
+nav li:nth-child(-n+2) a {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+
+/*******************
+  GENERAL STYLINGS
+*******************/
+
+html {
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.cta {
+	border-radius: 5px;
+	color: #000;
+	display: block;
+	text-align: center;
+	padding: 10px;
+}
+
+.cta-yellow {
+	background-color: #FFF653;
+	border-bottom: 3px solid #CEC441;
+}
+
+.cta-grey {
+	background-color: #C6C6C6;
+	border-bottom: 3px solid #999999;
+}
+
+/*******************
+  HEADER STYLINGS
+*******************/
+
+.header	{
+	background-color: #000;
+	border-bottom: 5px solid #FFF653;
+	padding: 20px 0;
+}
+
+h1 {
+	font-size: 1.5rem;
+	letter-spacing: 1px;
+	margin: 0;
+}
+
+h1 a {
+	color: #FFF653;
+}
+
+.header nav {
+	float: right;
+}
+
+.header ul {
+	margin-bottom: 0;
+}
+
+.header li{
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.header li:last-child {
+	margin-right: 0;
+}
+
+.header li a{
+	color: #fff;
+}
+
+ .header .current-page {
+	margin: 0 8px;
+}
+
+.header .current-page a {
+	background-color:  #C6C6C6;
+	padding: 18px 2px;
+}
+
+/*******************
+  SUB-HEADER STYLINGS
+*******************/
+
+.sub-header {
+	background-color: #C6C6C6;
+	border-top: 1px solid #AAAAAA;
+	box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+	padding: 20px 0;
+	position: relative;
+	text-align: center;
+	}
+
+.sub-header p {
+	font-size: 1.3rem;
+	font-style: italic;
+	margin: 0;
+}
+
+ins {
+	border-bottom: 3px solid #FFF653;
+    text-decoration: none;
+}
+
+del {
+	color: #999999;
+}
+
+/*******************
+  STAGE STYLINGS
+*******************/
+
+.stage {
+	background: url("../images/coworking.jpg") no-repeat;
+	background-size: cover;
+	padding: 20px 0;
+}
+
+.create-profile {
+	background-color: rgba(255,255,255,0.7);
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	margin-left: auto;
+	width: 90%;
+	max-width: 300px;
+	padding: 20px;
+}
+
+.create-profile h2 {
+	margin: 15px 0 0;
+}
+
+.create-profile p {
+	margin: 10px 0 20px;
+	line-height: 1.6;
+}
+
+/*******************
+  PROFILE STYLES
+*******************/
+
+.profiles {
+	background-color: #C6C6C6;
+	padding: 20px 0;
+}
+
+.profiles ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.profiles li {
+	background-color: #fff;
+	float: left;
+	padding: 10px;
+	margin: 10px;
+	width: 23%;
+	min-width: 250px;
+}
+
+.profiles img {
+	width: 100%;
+}
+
+.skills li {
+	display: inline-block;
+}
+
+
+/*******************
+  TEASERS STYLES
+*******************/
+
+.teasers-block {
+	width: 33%;
+	float: left;
+	padding: 0px 20px;
+	margin: 20px 0;
+}
+
+.teasers-block h3 {
+	font-family: 'Merriweather', serif;
+}
+
+.teasers-block p {
+	line-height: 1.6;
+}
+
+.teasers-block a {
+	background-color: #C6C6C6;
+	color: #000;
+	box-shadow: 0px 2px 1px #AAAAAA;
+}
+
+.teasers-block a:hover, .create-profile a:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+.middle-box {
+	border-left: 1px solid #C6C6C6;
+	border-right: 1px solid #C6C6C6;
+}
+
+/*******************
+  FOOTER STYLINGS
+*******************/
+
+.footer {
+	background-color: #000;
+	color: #fff;
+	padding: 10px 0;
+}
