@@ -111,6 +111,7 @@ h1 a {
 
 .header ul {
 	margin-bottom: 0;
+	padding-left: 0; 
 }
 
 .header li{
@@ -133,6 +134,12 @@ h1 a {
 .header .current-page a {
 	background-color: #999999;
 	padding: 18px 2px;
+}
+
+@media (max-width:768px) {
+	 .header .current-page a {
+		padding: 0 2px;
+	}
 }
 
 /*******************
@@ -205,13 +212,15 @@ del {
 	padding: 0;
 	margin: 0;
 	list-style: none;
+	text-align: center;
 }
 
 .profiles li {
 	background-color: #fff;
-	float: left;
+	display: inline-block;
+	text-align: left;
 	padding: 10px;
-	margin: 7.5px 10px;
+	margin: 7.5px 5px;
 	width: 23%;
 	min-width: 250px;
 }
